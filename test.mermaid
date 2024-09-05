@@ -1,0 +1,16 @@
+graph TD
+A[User Pushes Code to Repository] -->|Webhook Triggered| B[Flask Application Receives Webhook]
+B --> C[Fetch Commits Since Midnight]
+C --> D[Get Code Diffs for Commits]
+D --> E[Extract Metrics from Code Diffs]
+E --> F[Generate Email Report]
+F --> G[Send Email with Feedback]
+
+subgraph "Codebase"
+    B
+    C
+    D
+    E
+    F
+    G
+end
