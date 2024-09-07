@@ -12,6 +12,7 @@ load_dotenv()
 
 def check_time(username, token):
     last_event_time = fetch_last_event_local_time(username, token)
+    print("last_event_time", last_event_time)
     # Extract timezone from the given datetime object
     timezone = last_event_time.tzinfo
     print("timezone", timezone)
