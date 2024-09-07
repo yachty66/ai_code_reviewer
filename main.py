@@ -17,6 +17,7 @@ def check_time(username, token):
 
     # Get the current time in the extracted timezone
     current_time = datetime.now(timezone)
+    print("current_time", current_time.hour, current_time.minute)
 
     # Check if the current time is within 5 minutes of 16:07
     print("checking time")
