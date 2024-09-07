@@ -1,5 +1,20 @@
 # ai_code_reviewer
 
+now all i need to find out is how many
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
 - in the case the user did not pushed any code he is getting roasted or a motivational qoute is shared 
 
 ## Overview
@@ -140,7 +155,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ### Contact
 
-For any questions or issues, please [open an issue](https://github.com/yourusername/ai-code-reviewer/issues) or reach out to [your_email@example.com](mailto:your_email@example.com).
+For any questions or issues, please [open an issue](https://github.com/yourusername/ai-code-reviewer/issues) or reach out to [your_email@example.com](mailto:your_email@exa2mple.com).
 
 ## Acknowledgements
 
