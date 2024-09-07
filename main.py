@@ -27,6 +27,7 @@ def check_time(username, token):
     return False
 
 if __name__ == "__main__":
+    print("starting")
     username = os.getenv("USER_GITHUB")
     token = os.getenv("TOKEN_GITHUB")
 
