@@ -12,7 +12,6 @@ load_dotenv()
 username = os.getenv("USER_GITHUB")
 token = os.getenv("TOKEN_GITHUB")
 
-
 last_event_time = fetch_last_event_local_time(username, token)
 
 print("last_event_time", last_event_time)
