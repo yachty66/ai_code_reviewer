@@ -19,8 +19,11 @@ def check_time(username, token):
     current_time = datetime.now(timezone)
 
     # Check if the current time is within 5 minutes of 16:07
-    if current_time.hour == 16 and current_time.minute in range(2, 12):
+    print("checking time")
+    if current_time.hour == 16 and current_time.minute in range(2, 20):
+        print("it's time")
         return True
+    print("not time yet")
     return False
 
 if __name__ == "__main__":
@@ -28,6 +31,7 @@ if __name__ == "__main__":
     token = os.getenv("TOKEN_GITHUB")
 
     if check_time(username, token):
+        print("collecting activity")
         activity_summary = collect_github_activity(username, token)
         print(activity_summary)
 
