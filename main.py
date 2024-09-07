@@ -16,7 +16,7 @@ def check_time(username, token):
     timezone = last_event_time.tzinfo
 
     # Get the current time in the extracted timezone
-    current_time = datetime.now(timezone)
+    current_time = datetime.now(pytz.utc).astimezone(timezone)
     print("current_time", current_time)
 
     # Define the target time (00:00) in the same timezone
