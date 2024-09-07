@@ -14,6 +14,7 @@ def check_time(username, token):
     last_event_time = fetch_last_event_local_time(username, token)
     # Extract timezone from the given datetime object
     timezone = last_event_time.tzinfo
+    print("timezone", timezone)
 
     # Get the current time in the extracted timezone
     current_time = datetime.now(pytz.utc).astimezone(timezone)
