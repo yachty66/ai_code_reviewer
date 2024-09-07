@@ -10,6 +10,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 def check_time(username, token):
+    #it does that i am getting the local time 
     last_event_time = fetch_last_event_local_time(username, token)
     print("last_event_time", last_event_time)
 

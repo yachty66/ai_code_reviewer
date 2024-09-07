@@ -9,6 +9,7 @@ load_dotenv()
 
 
 def fetch_last_event_local_time(username, token):
+    #if i run this inside github then i have the problem that it fetches not the time from the event
     if not username or not token:
         raise ValueError("GitHub username or token is not set.")
 
